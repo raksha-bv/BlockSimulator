@@ -1,12 +1,12 @@
 import { useState } from "react";
 
 import "./index.css";
-import BlockchainSimulation from "./components/BlockchainSimulation";
+import BlockchainSimulator from "./components/BlockchainSimulator";
 
 function App() {
   const [count, setCount] = useState(0);
 
-  return <BlockchainSimulation />;
+  return <BlockchainSimulator />;
 }
 
 export default App;
